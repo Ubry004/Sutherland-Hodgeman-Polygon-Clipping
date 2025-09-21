@@ -19,7 +19,7 @@ It would be really annoying to have to divide polygons into line segments to be 
 They used the idea that clipping a polygon against a single edge is pretty easy, and created an algorithm that "simply" did this in turn for each edge, testing each vertex against each clipping edge.
 Maybe that sounds slow at first, but it really isn't. We still use this algorithm today because of it's simplicity and elegance.
 
-A recursive solution is also possible, and is recommended by Newell and Sproul because of how much is improves the space required to perform the algorithm. This is not much of an issue nowadays, but it's still a very important issue. An Interative solution is what is included in this program. If you would like to try your hand at a recursive solution, it would look something like this:
+A recursive solution is also possible, and is recommended by Newell and Sproul because of how much it improves the space required to perform the algorithm. This is not much of an issue nowadays, but it's still a very important issue. An **interative** solution is what is included in this program. If you would like to try your hand at a recursive solution, it would look something like this:
 
 ```
 std::vector<Vertex> clipRecursive(
