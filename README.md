@@ -5,8 +5,7 @@ https://dl.acm.org/doi/10.1145/360767.360802
 This project is a modern OpenGL demo of the **Sutherland–Hodgman polygon clipping algorithm**.  
 It shows how to clip a polygon against a rectangular viewport and render both the **original polygon** and the **clipped result** interactively.
 
-![SC1](SC1.png)
-![SC2](SC2.png)
+![SC1](SC1.png) | ![SC2](SC2.png)
 
 ---
 
